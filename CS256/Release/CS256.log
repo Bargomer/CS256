@@ -1,0 +1,70 @@
+﻿Build started 6/14/2015 12:23:03 AM.
+     1>Project "C:\Users\Timadeus\documents\visual studio 2013\Projects\CS256\CS256\CS256.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\trash\MD5" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FIencryptoo.cpp /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.5\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp Options.cpp SignUp.cpp
+         MyForm.cpp
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\trash\MD5\encryptoo.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\trash\MD5\encryptoo.cpp(29): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\trash\MD5\encryptoo.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\trash\MD5\md5.cpp(342): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>MyForm.cpp(8): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+         Options.cpp
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\trash\MD5\encryptoo.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\trash\MD5\encryptoo.cpp(29): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\trash\MD5\encryptoo.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+         SignUp.cpp
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\trash\MD5\encryptoo.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\trash\MD5\encryptoo.cpp(29): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\trash\MD5\encryptoo.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\trash\MD5\md5.cpp(342): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Timadeus\documents\visual studio 2013\Projects\CS256\Release\CS256.exe" /INCREMENTAL:NO /NOLOGO /FORCE:MULTIPLE /ASSEMBLYRESOURCE:Release\CS256.Insert.resources /ASSEMBLYRESOURCE:Release\CS256.MyForm.resources /ASSEMBLYRESOURCE:Release\CS256.Options.resources /ASSEMBLYRESOURCE:Release\CS256.SignUp.resources /ASSEMBLYRESOURCE:Release\CS256.Welcome.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Timadeus\documents\visual studio 2013\Projects\CS256\Release\CS256.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\Insert.obj
+         Release\MyForm.obj
+         Release\Options.obj
+         Release\SignUp.obj
+         Release\Welcome.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>MyForm.obj : warning LNK4006: "void __cdecl submain(void)" (?submain@@$$FYAXXZ) already defined in Insert.obj; second definition ignored
+     1>MyForm.obj : warning LNK4006: "void __cdecl submain(void)" (?submain@@YAXXZ) already defined in Insert.obj; second definition ignored
+     1>Options.obj : warning LNK4006: "void __cdecl submain(void)" (?submain@@$$FYAXXZ) already defined in Insert.obj; second definition ignored
+     1>Options.obj : warning LNK4006: "void __cdecl submain(void)" (?submain@@YAXXZ) already defined in Insert.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "private: void __thiscall MD5::init(void)" (?init@MD5@@$$FAAEXXZ) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "private: void __thiscall MD5::init(void)" (?init@MD5@@AAEXXZ) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "private: static void __cdecl MD5::decode(unsigned int * const,unsigned char const * const,unsigned int)" (?decode@MD5@@$$FCAXQAIQBEI@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "private: static void __cdecl MD5::decode(unsigned int * const,unsigned char const * const,unsigned int)" (?decode@MD5@@CAXQAIQBEI@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "private: static void __cdecl MD5::encode(unsigned char * const,unsigned int const * const,unsigned int)" (?encode@MD5@@$$FCAXQAEQBII@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "private: static void __cdecl MD5::encode(unsigned char * const,unsigned int const * const,unsigned int)" (?encode@MD5@@CAXQAEQBII@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "private: void __thiscall MD5::transform(unsigned char const * const)" (?transform@MD5@@$$FAAEXQBE@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "private: void __thiscall MD5::transform(unsigned char const * const)" (?transform@MD5@@AAEXQBE@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "public: void __thiscall MD5::update(unsigned char const *,unsigned int)" (?update@MD5@@$$FQAEXPBEI@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "public: void __thiscall MD5::update(unsigned char const *,unsigned int)" (?update@MD5@@QAEXPBEI@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "public: void __thiscall MD5::update(char const *,unsigned int)" (?update@MD5@@$$FQAEXPBDI@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "public: void __thiscall MD5::update(char const *,unsigned int)" (?update@MD5@@QAEXPBDI@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "public: class MD5 & __thiscall MD5::finalize(void)" (?finalize@MD5@@$$FQAEAAV1@XZ) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "public: class MD5 & __thiscall MD5::finalize(void)" (?finalize@MD5@@QAEAAV1@XZ) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "public: __thiscall MD5::MD5(void)" (??0MD5@@$$FQAE@XZ) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "public: __thiscall MD5::MD5(void)" (??0MD5@@QAE@XZ) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "public: __thiscall MD5::MD5(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0MD5@@$$FQAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "public: __thiscall MD5::MD5(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0MD5@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "void __cdecl submain(void)" (?submain@@$$FYAXXZ) already defined in Insert.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "void __cdecl submain(void)" (?submain@@YAXXZ) already defined in Insert.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall MD5::hexdigest(void)const " (?hexdigest@MD5@@$$FQBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall MD5::hexdigest(void)const " (?hexdigest@MD5@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class MD5)" (??6@$$FYAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@VMD5@@@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class MD5)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@VMD5@@@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl md5(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?md5@@$$FYA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z) already defined in MyForm.obj; second definition ignored
+     1>SignUp.obj : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl md5(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?md5@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z) already defined in MyForm.obj; second definition ignored
+     1>Welcome.obj : warning LNK4006: "void __cdecl submain(void)" (?submain@@$$FYAXXZ) already defined in Insert.obj; second definition ignored
+     1>Welcome.obj : warning LNK4006: "void __cdecl submain(void)" (?submain@@YAXXZ) already defined in Insert.obj; second definition ignored
+     1>.NETFramework,Version=v4.5.AssemblyAttributes.obj : warning LNK4006: "void __cdecl submain(void)" (?submain@@$$FYAXXZ) already defined in Insert.obj; second definition ignored
+     1>.NETFramework,Version=v4.5.AssemblyAttributes.obj : warning LNK4006: "void __cdecl submain(void)" (?submain@@YAXXZ) already defined in Insert.obj; second definition ignored
+     1>C:\Users\Timadeus\documents\visual studio 2013\Projects\CS256\Release\CS256.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+         CS256.vcxproj -> C:\Users\Timadeus\documents\visual studio 2013\Projects\CS256\Release\CS256.exe
+     1>Done Building Project "C:\Users\Timadeus\documents\visual studio 2013\Projects\CS256\CS256\CS256.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.79

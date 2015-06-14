@@ -1,0 +1,215 @@
+﻿Build started 5/28/2015 12:34:12 AM.
+     1>Project "C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\CS256.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CryptoPlusPlusPlus" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.5\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp
+         MyForm.cpp
+     1>MyForm.cpp(9): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+     1>c:\users\timadeus\documents\visual studio 2013\projects\cs256\cryptopp562\secblock.h(248): warning C4793: 'CryptoPP::SecBlock<unsigned int,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,0> >::SecBlock<unsigned int,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,0> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>c:\users\timadeus\documents\visual studio 2013\projects\cs256\cryptopp562\secblock.h(248): warning C4793: 'CryptoPP::SecBlock<unsigned int,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,1> >::SecBlock<unsigned int,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,1> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>c:\users\timadeus\documents\visual studio 2013\projects\cs256\cryptopp562\secblock.h(248): warning C4793: 'CryptoPP::SecBlock<unsigned __int64,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned __int64,16,CryptoPP::NullAllocator<unsigned __int64>,0> >::SecBlock<unsigned __int64,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned __int64,16,CryptoPP::NullAllocator<unsigned __int64>,0> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>c:\users\timadeus\documents\visual studio 2013\projects\cs256\cryptopp562\secblock.h(248): warning C4793: 'CryptoPP::SecBlock<unsigned __int64,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned __int64,16,CryptoPP::NullAllocator<unsigned __int64>,1> >::SecBlock<unsigned __int64,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned __int64,16,CryptoPP::NullAllocator<unsigned __int64>,1> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::FixedSizeSecBlock<unsigned int,16,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,0> >::FixedSizeSecBlock<unsigned int,16,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,0> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::FixedSizeSecBlock<unsigned int,16,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,1> >::FixedSizeSecBlock<unsigned int,16,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,1> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::FixedSizeSecBlock<unsigned __int64,16,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned __int64,16,CryptoPP::NullAllocator<unsigned __int64>,1> >::FixedSizeSecBlock<unsigned __int64,16,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned __int64,16,CryptoPP::NullAllocator<unsigned __int64>,1> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::FixedSizeSecBlock<unsigned __int64,16,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned __int64,16,CryptoPP::NullAllocator<unsigned __int64>,0> >::FixedSizeSecBlock<unsigned __int64,16,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned __int64,16,CryptoPP::NullAllocator<unsigned __int64>,0> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::FixedSizeAlignedSecBlock<unsigned int,16,0>::FixedSizeAlignedSecBlock<unsigned int,16,0>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::FixedSizeAlignedSecBlock<unsigned int,16,1>::FixedSizeAlignedSecBlock<unsigned int,16,1>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::FixedSizeAlignedSecBlock<unsigned __int64,16,1>::FixedSizeAlignedSecBlock<unsigned __int64,16,1>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA1>::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA1>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA256>::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA256>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA224>::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA224>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::IteratedHash<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,CryptoPP::HashTransformation>::IteratedHash<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,CryptoPP::HashTransformation>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::ClonableImpl<CryptoPP::SHA1,CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA1> >::ClonableImpl<CryptoPP::SHA1,CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA1> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::ClonableImpl<CryptoPP::SHA256,CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA256> >::ClonableImpl<CryptoPP::SHA256,CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA256> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::ClonableImpl<CryptoPP::SHA224,CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA224> >::ClonableImpl<CryptoPP::SHA224,CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA224> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,CryptoPP::HashTransformation>,CryptoPP::SHA512>::AlgorithmImpl<CryptoPP::IteratedHash<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,CryptoPP::HashTransformation>,CryptoPP::SHA512>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,CryptoPP::HashTransformation>,CryptoPP::SHA384>::AlgorithmImpl<CryptoPP::IteratedHash<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,CryptoPP::HashTransformation>,CryptoPP::SHA384>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,20,CryptoPP::SHA1,0,0>::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,20,CryptoPP::SHA1,0,0>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,20,CryptoPP::SHA1,0,0>::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,20,CryptoPP::SHA1,0,0>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,32,CryptoPP::SHA256,32,1>::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,32,CryptoPP::SHA256,32,1>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,32,CryptoPP::SHA256,32,1>::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,32,CryptoPP::SHA256,32,1>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,32,CryptoPP::SHA224,28,1>::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,32,CryptoPP::SHA224,28,1>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,32,CryptoPP::SHA224,28,1>::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,32,CryptoPP::SHA224,28,1>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::ClonableImpl<CryptoPP::SHA512,CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,CryptoPP::HashTransformation>,CryptoPP::SHA512> >::ClonableImpl<CryptoPP::SHA512,CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,CryptoPP::HashTransformation>,CryptoPP::SHA512> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::ClonableImpl<CryptoPP::SHA384,CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,CryptoPP::HashTransformation>,CryptoPP::SHA384> >::ClonableImpl<CryptoPP::SHA384,CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,CryptoPP::HashTransformation>,CryptoPP::SHA384> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::SHA1::SHA1' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::SHA256::SHA256' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::SHA224::SHA224' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::IteratedHashWithStaticTransform<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,64,CryptoPP::SHA512,64,1>::IteratedHashWithStaticTransform<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,64,CryptoPP::SHA512,64,1>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::IteratedHashWithStaticTransform<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,64,CryptoPP::SHA512,64,1>::IteratedHashWithStaticTransform<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,64,CryptoPP::SHA512,64,1>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::IteratedHashWithStaticTransform<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,64,CryptoPP::SHA384,48,1>::IteratedHashWithStaticTransform<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,64,CryptoPP::SHA384,48,1>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::IteratedHashWithStaticTransform<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,64,CryptoPP::SHA384,48,1>::IteratedHashWithStaticTransform<unsigned __int64,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,128,64,CryptoPP::SHA384,48,1>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::SHA512::SHA512' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::SHA384::SHA384' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>c:\users\timadeus\documents\visual studio 2013\projects\cs256\cryptoplusplusplus\cryptoppp.h(55): warning C4793: 'encrypt' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>c:\users\timadeus\documents\visual studio 2013\projects\cs256\cryptopp562\misc.h(514): warning C4793: 'CryptoPP::SecureWipeBuffer<unsigned int>' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>c:\users\timadeus\documents\visual studio 2013\projects\cs256\cryptopp562\misc.h(504): warning C4793: 'CryptoPP::SecureWipeBuffer<unsigned short>' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>c:\users\timadeus\documents\visual studio 2013\projects\cs256\cryptopp562\misc.h(494): warning C4793: 'CryptoPP::SecureWipeBuffer<unsigned char>' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>c:\users\timadeus\documents\visual studio 2013\projects\cs256\cryptopp562\osrng.h(90): warning C4793: 'CryptoPP::AutoSeededRandomPool::AutoSeededRandomPool' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::SHA1::SHA1' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>c:\users\timadeus\documents\visual studio 2013\projects\cs256\cryptopp562\iterhash.h(88): warning C4793: 'CryptoPP::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,20,CryptoPP::SHA1,0,0>::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,20,CryptoPP::SHA1,0,0>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>c:\users\timadeus\documents\visual studio 2013\projects\cs256\cryptopp562\iterhash.h(88): warning C4793: 'CryptoPP::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,20,CryptoPP::SHA1,0,0>::IteratedHashWithStaticTransform<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,20,CryptoPP::SHA1,0,0>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::ClonableImpl<CryptoPP::SHA1,CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA1> >::ClonableImpl<CryptoPP::SHA1,CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA1> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::FixedSizeAlignedSecBlock<unsigned int,16,0>::FixedSizeAlignedSecBlock<unsigned int,16,0>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA1>::AlgorithmImpl<CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>,CryptoPP::SHA1>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>c:\users\timadeus\documents\visual studio 2013\projects\cs256\cryptopp562\secblock.h(425): warning C4793: 'CryptoPP::FixedSizeSecBlock<unsigned int,16,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,0> >::FixedSizeSecBlock<unsigned int,16,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,0> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\MyForm.cpp : warning C4793: 'CryptoPP::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>::IteratedHash<unsigned int,CryptoPP::EnumToType<enum CryptoPP::ByteOrder,1>,64,CryptoPP::HashTransformation>' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>c:\users\timadeus\documents\visual studio 2013\projects\cs256\cryptopp562\secblock.h(246): warning C4793: 'CryptoPP::SecBlock<unsigned int,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,0> >::SecBlock<unsigned int,CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,0> >' : function compiled as native :
+         	Aligned data types not supported in managed code
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\Debug\CS256.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\CS256.MyForm.resources /ASSEMBLYRESOURCE:Debug\CS256.SignUp.resources /ASSEMBLYRESOURCE:Debug\CS256.Welcome.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\Debug\CS256.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\MyForm.obj
+         Debug\SignUp.obj
+         Debug\Welcome.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         ..\cryptopp562\Win32\Output\Debug\cryptlib.lib
+     1>cryptlib.lib(pch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(pch.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>cryptlib.lib(zlib.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(xtrcrypt.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(cryptlib.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(filters.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(asn.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(queue.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(fipstest.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(integer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(dll.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(rsa.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(iterhash.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(sha.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(pubkey.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(algparam.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(oaep.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(randpool.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(osrng.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(misc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(adler32.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(zinflate.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(xtr.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(nbtheory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(fips140.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(mqueue.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(rijndael.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(modes.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(channels.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(des.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(gfpcrypt.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(hmac.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(gf2n.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(ec2n.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(ecp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(files.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(basecode.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(hex.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(pkcspad.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(emsa2.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(pssr.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(skipjack.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(cpu.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(rng.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(hrtimer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(rdtables.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>cryptlib.lib(dessp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>libcpmtd.lib(ios.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>libcpmtd.lib(ios.obj) : error LNK2005: "public: static void __cdecl std::ios_base::_Addstd(class std::ios_base *)" (?_Addstd@ios_base@std@@SAXPAV12@@Z) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>libcpmtd.lib(ios.obj) : error LNK2005: "private: static void __cdecl std::ios_base::_Ios_base_dtor(class std::ios_base *)" (?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>libcpmtd.lib(locale0.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "void __cdecl std::_Facet_Register(class std::_Facet_base *)" (?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z) already defined in msvcprtd.lib(locale0_implib.obj)
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)" (?_Init@locale@std@@CAPAV_Locimp@12@_N@Z) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_ctor(class std::_Locinfo *,char const *)" (?_Locinfo_ctor@_Locinfo@std@@SAXPAV12@PBD@Z) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_dtor(class std::_Locinfo *)" (?_Locinfo_dtor@_Locinfo@std@@SAXPAV12@@Z) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>libcpmtd.lib(locale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>libcpmtd.lib(xlock.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>libcpmtd.lib(xlock.obj) : error LNK2005: "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>libcpmtd.lib(xlock.obj) : error LNK2005: "public: __thiscall std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QAE@XZ) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPBD@Z) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xout_of_range(char const *)" (?_Xout_of_range@std@@YAXPBD@Z) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>libcpmtd.lib(xdebug.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>libcpmtd.lib(xdebug.obj) : error LNK2005: "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>libcpmtd.lib(xdebug.obj) : error LNK2005: "void __cdecl operator delete(void *,struct std::_DebugHeapTag_t const &,char *,int)" (??3@YAXPAXABU_DebugHeapTag_t@std@@PADH@Z) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>libcpmtd.lib(xdebug.obj) : error LNK2005: "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ) already defined in msvcprtd.lib(MSVCP120D.dll)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>libcpmtd.lib(xlocale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>libcpmtd.lib(xdateord.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in MyForm.obj
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_free already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __aligned_malloc already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __calloc_dbg already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __free_dbg already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(_ctype.obj) : error LNK2005: _isalpha already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(winapisupp.obj) : error LNK2005: ___crtTerminateProcess already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(winapisupp.obj) : error LNK2005: ___crtUnhandledException already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(invarg.obj) : error LNK2005: __invalid_parameter already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(dbghook.obj) : error LNK2005: __crt_debugger_hook already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(wcstombs.obj) : error LNK2005: _wcstombs already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(fpinit.obj) : error LNK2005: __fltused already defined in a previous module
+     1>LIBCMTD.lib(fpinit.obj) : error LNK2005: __ldused already defined in a previous module
+     1>LIBCMTD.lib(mlock.obj) : error LNK2005: __lock already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(mlock.obj) : error LNK2005: __unlock already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(hooks.obj) : error LNK2005: "void __cdecl terminate(void)" (?terminate@@YAXXZ) already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(_file.obj) : error LNK2005: __lock_file already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(_file.obj) : error LNK2005: __unlock_file already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(dbgrptw.obj) : error LNK2005: __CrtDbgReportW already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(fflush.obj) : error LNK2005: _fflush already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LIBCMTD.lib(tolower.obj) : error LNK2005: _tolower already defined in MSVCRTD.lib(MSVCR120D.dll)
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\Debug\CS256.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "C:\Users\Timadeus\Documents\Visual Studio 2013\Projects\CS256\CS256\CS256.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.44

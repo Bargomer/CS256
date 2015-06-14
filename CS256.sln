@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CS256", "CS256\CS256.vcxproj", "{9D469565-0A86-4E15-90E3-5D04524BF7A7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MD5", "..\trash\MD5\MD5.vcxproj", "{7C726FEF-EF63-45A6-8BB2-4AFCE22A136D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Read Registry", "Read Registry\Read Registry.vcxproj", "{F83C4F2C-3095-4D76-B642-1A620101E972}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D469565-0A86-4E15-90E3-5D04524BF7A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D469565-0A86-4E15-90E3-5D04524BF7A7}.Debug|Win32.Build.0 = Debug|Win32
+		{9D469565-0A86-4E15-90E3-5D04524BF7A7}.Debug|Win32.Deploy.0 = Debug|Win32
+		{9D469565-0A86-4E15-90E3-5D04524BF7A7}.Release|Win32.ActiveCfg = Release|Win32
+		{9D469565-0A86-4E15-90E3-5D04524BF7A7}.Release|Win32.Build.0 = Release|Win32
+		{7C726FEF-EF63-45A6-8BB2-4AFCE22A136D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C726FEF-EF63-45A6-8BB2-4AFCE22A136D}.Debug|Win32.Build.0 = Debug|Win32
+		{7C726FEF-EF63-45A6-8BB2-4AFCE22A136D}.Release|Win32.ActiveCfg = Release|Win32
+		{7C726FEF-EF63-45A6-8BB2-4AFCE22A136D}.Release|Win32.Build.0 = Release|Win32
+		{F83C4F2C-3095-4D76-B642-1A620101E972}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F83C4F2C-3095-4D76-B642-1A620101E972}.Debug|Win32.Build.0 = Debug|Win32
+		{F83C4F2C-3095-4D76-B642-1A620101E972}.Release|Win32.ActiveCfg = Release|Win32
+		{F83C4F2C-3095-4D76-B642-1A620101E972}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
